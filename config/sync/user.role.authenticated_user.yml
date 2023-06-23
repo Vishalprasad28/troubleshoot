@@ -1,0 +1,12 @@
+uuid: 4d1d9ec1-77b7-47a8-b10d-9aae34de8d2c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - mymodule
+id: authenticated_user
+label: 'Authenticated user'
+weight: -8
+is_admin: null
+permissions:
+  - 'admin custom permission'
